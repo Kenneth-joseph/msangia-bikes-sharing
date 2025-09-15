@@ -1,0 +1,5 @@
+class AddLastMaintenanceDateToBikes < ActiveRecord::Migration[8.0]
+  def change
+    add_column :bikes, :last_maintenance_date, :date
+  end
+end
