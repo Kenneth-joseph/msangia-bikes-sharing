@@ -56,7 +56,7 @@ gem "stripe", "~> 10.0"
 gem "twilio-ruby", "~> 5.0"
 gem "dotenv-rails", groups: [ :development, :test ]
 gem "faker", "~> 3.2"
-gem "pagy", "~> 6.0"
+gem "pagy", "~> 9.4"
 gem "sidekiq-failures", "~> 1.0"
 gem "activeadmin", "~> 3.2"
 gem "arctic_admin", "~> 4.0"
