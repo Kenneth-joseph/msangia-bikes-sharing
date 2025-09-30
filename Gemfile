@@ -53,7 +53,7 @@ gem "sidekiq", "~> 7.0"
 gem "redis", "~> 5.0"
 gem "sidekiq-cron", "~> 1.10"
 gem "stripe", "~> 10.0"
-gem "twilio-ruby", "~> 5.0"
+gem "twilio-ruby", "~> 7.8"
 gem "dotenv-rails", groups: [ :development, :test ]
 gem "faker", "~> 3.2"
 gem "pagy", "~> 6.0"
