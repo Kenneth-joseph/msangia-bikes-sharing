@@ -319,7 +319,7 @@ GEM
       activesupport (>= 3.0.0)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.2.1)
+    rack (3.2.2)
     rack-cors (2.0.2)
       rack (>= 2.0.0)
     rack-protection (4.1.1)
@@ -373,7 +373,7 @@ GEM
       psych (>= 4.0.0)
     redis (5.4.1)
       redis-client (>= 0.22.0)
-    redis-client (0.25.3)
+    redis-client (0.26.1)
       connection_pool
     regexp_parser (2.11.2)
     reline (0.6.2)
@@ -420,12 +420,12 @@ GEM
     sassc (2.4.0)
       ffi (~> 1.9)
     securerandom (0.4.1)
-    sidekiq (7.3.9)
-      base64
-      connection_pool (>= 2.3.0)
-      logger
-      rack (>= 2.2.4)
-      redis-client (>= 0.22.2)
+    sidekiq (8.0.8)
+      connection_pool (>= 2.5.0)
+      json (>= 2.9.0)
+      logger (>= 1.6.2)
+      rack (>= 3.1.0)
+      redis-client (>= 0.23.2)
     sidekiq-cron (1.12.0)
       fugit (~> 1.8)
       globalid (>= 1.0.1)
@@ -550,7 +550,7 @@ DEPENDENCIES
   redis (~> 5.0)
   rolify
   rubocop-rails-omakase
-  sidekiq (~> 7.0)
+  sidekiq (~> 8.0)
   sidekiq-cron (~> 1.10)
   sidekiq-failures (~> 1.0)
   solid_cable
